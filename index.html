@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トレーニングサポートシステム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="accordion" id="js-list">
+        <p class="accordion-trigger">腕</p>
+        <div class="accordion-contents">
+            <ul>
+                <p class="name">ダンベルカール</p>
+                <div class="img">
+                    <img src="Curl.jpeg" alt="">
+                </div>
+                <li>1.ダンベルを手に持つ</li>
+                <li>2.上腕二頭筋を使って上に持ち上げる</li>
+                <li>3.ゆっくりとダンベルを下す</li>
+            </ul>
+            <div id="msg1">ここにデータを表示</div>
+        </div>
+
+        <p class="accordion-trigger">腹</p>
+        <div class="accordion-contents">
+            <ul>
+                <p class="name">クランチ</p>
+                <div class="img">
+                    <img src="Crunch.jpeg" alt="">
+                </div>
+                <li>1.仰向けになり、膝を立て、頭の後ろで両手を組む。
+                <li>2.背中を丸めるようにして上半身を起こす。</li>
+                <li>3.ゆっくりと元に戻す。</li>
+                <li>4.10回×３セット。</li>
+            </ul>
+            <div id="msg2">ここにデータを表示</div>
+        </div>
+        
+        <p class="accordion-trigger">胸</p>
+        <div class="accordion-contents">
+            <ul>
+                <p class="name">デクラインプッシュアップ</p>
+                <div class="img">
+                    <img src="deku.jpeg" alt="" class="deku">
+                </div>
+                <li>1.足を椅子の上に置いて両手は床につける</li>
+                <li>2.肘をまげて、体を下ろし持ち上げる</li>
+                <li>3.息を吸いながら下ろし、吐きながらあげる</li>
+            </ul>
+            <div id="msg3">ここにデータを表示</div>
+        </div>
+    </div>
+    <canvas id="canvas" width="300" height="400"></canvas>
+    <script src="app.js"></script>
+    <script src="accordion.js"></script>
+</body>
+</html>

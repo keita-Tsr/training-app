@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+h2 {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.name {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#exerciseInfo {
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+}
+
+.list {
+  align-items: center;
+  text-align: left;
+}
+
+.accordion {
+	/* width: 500px; */
+	margin: 0 auto;
+}
+
+.accordion-trigger {
+	margin: 0;
+	padding: 10px;
+	display: block;
+	background: #333;
+	color: #FFF;
+	border-top: 1px solid #fff;
+}
+.accordion-contents {
+	margin: 0;
+	padding: 10px;
+	border: 1px solid #ccc;
+	display: none;
+}
+
+.deku {
+	width: 247px;
+	height: auto;
+}
